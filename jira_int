@@ -16,7 +16,7 @@ pipeline {
                  branch 'master'
              }
              steps {
-                 echo 'Deploying to Staging from master...'
+                 echo 'Deploying to Staging from main...'
              }
              post {
                  always {
@@ -29,7 +29,7 @@ pipeline {
                 branch 'master'
             }
             steps {
-                echo 'Deploying to Production from master...'
+                echo 'Deploying to Production from main...'
             }
             post {
                 always {
