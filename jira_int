@@ -16,7 +16,7 @@ spec:
     }
   }
      stages {
-         stage('Build') {
+         stage('Build Step') {
              steps {
                  echo 'Building ...'
              }
