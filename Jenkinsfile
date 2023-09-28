@@ -18,7 +18,7 @@ spec:
      stages {
          stage('Build Step') {
              steps {
-                 echo 'Building update...'
+                 echo 'Building update 2...'
              }
              post {
                  always {
