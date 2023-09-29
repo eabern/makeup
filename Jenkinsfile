@@ -22,7 +22,7 @@ spec:
              }
              post {
                  always {
-                     jiraSendBuildInfo site: 'example.atlassian.net'
+                     jiraSendBuildInfo site: 'cloudbees.atlassian.net'
                  }
              }
          }
