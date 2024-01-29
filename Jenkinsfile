@@ -27,9 +27,9 @@ spec:
              }
          }
          stage('Deploy - Staging') {
-             when {
+             /*when {
                  branch 'main'
-             }
+             }*/
              steps {
                  echo 'Deploying to Staging from main...'
              }
