@@ -28,7 +28,7 @@ spec:
          }
          stage('Deploy - Staging') {
              when {
-                 branch 'master'
+                 branch 'main'
              }
              steps {
                  echo 'Deploying to Staging from main...'
@@ -41,7 +41,7 @@ spec:
          }
          stage('Deploy - Production') {
             when {
-                branch 'master'
+                branch 'main'
             }
             steps {
                 echo 'Deploying to Production from main...'
