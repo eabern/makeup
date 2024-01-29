@@ -40,9 +40,9 @@ spec:
              }
          }
          stage('Deploy - Production') {
-            when {
+            /*(when {
                 branch 'main'
-            }
+            }*/
             steps {
                 echo 'Deploying to Production from main...'
             }
