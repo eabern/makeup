@@ -33,6 +33,8 @@ spec:
              }*/
              steps {
                  echo 'Deploying to Staging from main...'
+                 sh 'pwd'
+                 sh 'ls -al'
              }
              post {
                  always {
