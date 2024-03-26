@@ -19,6 +19,7 @@ spec:
          stage('Build Step 1') {
              steps {
                  echo 'Building 456...'
+                 sh 'pwd'
              }
              post {
                  always {
