@@ -1,0 +1,13 @@
+@Library('shared-library') _
+def config = [name: 'Erica', dayOfWeek: 'Tuesday']
+pipeline {
+    agent any
+    stages {
+        stage('Example') {
+            steps { 
+                helloWorld(config)
+                //closurePipeline {
+            }
+        }
+    }
+}
